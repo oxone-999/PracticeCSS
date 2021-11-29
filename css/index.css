@@ -1,0 +1,111 @@
+body{
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow condensed", sans-serif;
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+}
+
+.logo{
+  border-radius: 50%;
+  position: absolute;
+  top: 68px;
+  left: 80px;
+  width: 60px;
+}
+
+.explore {
+  border-radius: 70%;
+  color: #0B0D17;
+  background: #ffffff;
+  text-decoration: none;
+  height: 274px;
+  width: 274px;
+  position: absolute;
+  right: 180px;
+  bottom: 150px;
+}
+
+.explore:hover {
+  background: #e6e6e6;
+  text-decoration: none;
+}
+
+.explore-text{
+  font-family: 'Bellefair',serif;
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 116.5px auto 116.5px auto;
+  font-weight: normal;
+}
+
+h1{
+  font-family: 'Bellefair',sans-serif;
+  font-size: 9.375rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 20px auto 20px auto;
+}
+
+h3{
+  font-family: "Barlow Condensed", sans-serif;
+  color: #D0D6F9;
+  font-size: 1.75rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 4.75px;
+}
+
+.blur{
+  position: absolute;
+  left: 210px;
+  top: 95px;
+  height: 3px;
+  width: 660px;
+  z-index: 999;
+  background-color: rgba(100, 100, 100, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.Nav-bar{
+  margin: 50px 0 50px auto;
+  width: 57%;
+  padding: 15px 0;
+  background-color: rgba(100, 100, 100, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.Nav-tab{
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+td{
+  padding: 10px 50px;
+  font-weight: normal;
+}
+
+.content{
+  width: 25%;
+  margin: 200px auto 200px 100px;
+}
+
+strong{
+  color: #FFFFFF;
+}
+
+tr{
+  color: #D0D6F9;
+}
+
+.content p{
+  color: #D0D6F9;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 2;
+  margin: 0;
+}
